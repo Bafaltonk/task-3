@@ -73,7 +73,6 @@ public class Main {
 
     public static Boolean isValidHexCode(String s){
         for (int i = 1; i < s.length(); i++) {
-            System.out.println((int) s.charAt(i));
             if ((47 < (int) s.charAt(i) & (int) s.charAt(i) < 58) | (64 < (int) s.charAt(i) & (int) s.charAt(i) < 71)) {
                 continue;
             }else{
